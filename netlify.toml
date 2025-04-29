@@ -1,0 +1,8 @@
+# Netlify configuration
+
+# Redirect rule for Single Page Applications (SPA)
+# This ensures that direct navigation or refreshes work with Vue Router's history mode
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200 
